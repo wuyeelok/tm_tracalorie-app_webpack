@@ -457,7 +457,7 @@ class App {
     calories.value = "";
 
     const collpaseItem = document.getElementById(`collapse-${type}`);
-    const bsCollapse = new bootstrap.Collapse(collpaseItem, {
+    const bsCollapse = new Collapse(collpaseItem, {
       toggle: true,
     });
   }
@@ -516,7 +516,7 @@ class App {
     evt.preventDefault();
 
     const limitModalEl = document.getElementById("limit-modal");
-    const modal = bootstrap.Modal.getInstance(limitModalEl);
+    const modal = Modal.getInstance(limitModalEl);
     const limit = document.getElementById("limit");
 
     if (limit.value === "" || isNaN(limit.value) || Number(limit.value) <= 0) {
