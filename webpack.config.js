@@ -44,6 +44,11 @@ module.exports = {
       filename: "index.html",
       template: "./src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "404",
+      filename: "404.html",
+      template: "./src/404.html",
+    }),
     new MiniCssExtractPlugin(),
   ],
 };
