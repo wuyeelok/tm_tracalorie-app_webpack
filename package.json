@@ -1,8 +1,8 @@
 {
-  "name": "tm_webpack-starter",
+  "name": "tm_tracalorie-app_webpack",
   "version": "1.0.0",
-  "description": "Boilerplate for creating apps with Webpack",
-  "main": "index.js",
+  "description": "Tracalorie App",
+  "main": "app.js",
   "dependencies": {
     "acorn": "^8.11.3",
     "acorn-import-assertions": "^1.9.0",
