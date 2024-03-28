@@ -1,8 +1,8 @@
-# Webpack Starter
+# Tracalorie App Webpack
 
 _Table of Contents_
 
-- [Webpack Starter](#webpack-starter)
+- [Tracalorie App Webpack](#tracalorie-app-webpack)
   - [Prerequisite](#prerequisite)
   - [How to use](#how-to-use)
 
